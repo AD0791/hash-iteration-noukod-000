@@ -9,6 +9,7 @@
 
 passengers.each do |suite, name|
   if suite == :suite_a && name.start_with?("A")
-    return winner = name
+    winner = name
   end
+  winner
 end
