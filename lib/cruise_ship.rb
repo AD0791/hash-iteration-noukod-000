@@ -12,4 +12,3 @@ passengers.each do |suite, name|
     return winner = name
   end
 end
-
